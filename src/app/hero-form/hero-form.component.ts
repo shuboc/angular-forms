@@ -20,9 +20,6 @@ export class HeroFormComponent implements OnInit {
     this.submitted = true
   }
 
-  // TODO: Remove this when we're done
-  get diagnostic() { return JSON.stringify(this.model); }
-
   constructor() { }
 
   ngOnInit() {
